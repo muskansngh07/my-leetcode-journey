@@ -20,8 +20,9 @@ Therefore, the k-beauty is 2.
 
 
 # Code
-  ```class Solution {
-    public int divisorSubstrings(int num, int k) {
+  ```java
+        class Solution {
+        public int divisorSubstrings(int num, int k) {
         int count=0;
         String s=String.valueOf(num);
         for(int i=0;i<s.length();i++)
