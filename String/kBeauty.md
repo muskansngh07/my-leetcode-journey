@@ -20,7 +20,7 @@ Therefore, the k-beauty is 2.
 
 
 # Code
-  <pre>```class Solution {
+  ```class Solution {
     public int divisorSubstrings(int num, int k) {
         int count=0;
         String s=String.valueOf(num);
@@ -36,4 +36,4 @@ Therefore, the k-beauty is 2.
         }
         return count;
     }
-}```</pre>
+}
