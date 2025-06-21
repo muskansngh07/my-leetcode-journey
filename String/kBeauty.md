@@ -19,8 +19,8 @@ Explanation: The following are the substrings of num of length k:
 Therefore, the k-beauty is 2.
 
 
-\\\Code
-  class Solution {
+# Code
+  <pre>```class Solution {
     public int divisorSubstrings(int num, int k) {
         int count=0;
         String s=String.valueOf(num);
@@ -36,4 +36,4 @@ Therefore, the k-beauty is 2.
         }
         return count;
     }
-}
+}```</pre>
