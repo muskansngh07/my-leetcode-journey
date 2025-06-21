@@ -3,14 +3,13 @@ It has a length of k.
 It is a divisor of num.
 Given integers num and k, return the k-beauty of num.
 
-Note:
+# Note:
 - Leading zeros are allowed.
 - 0 is not a divisor of any value.
 - A substring is a contiguous sequence of characters in a string.
 
  
-
-Example 1:
+# Example 1:
 
 Input: num = 240, k = 2
 Output: 2
@@ -19,8 +18,8 @@ Explanation: The following are the substrings of num of length k:
 - "40" from "240": 40 is a divisor of 240.
 Therefore, the k-beauty is 2.
 
-  - code 
-  
+
+\\\Code
   class Solution {
     public int divisorSubstrings(int num, int k) {
         int count=0;
