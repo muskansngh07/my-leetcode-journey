@@ -1,5 +1,4 @@
-```java
-  class Solution {
+class Solution {
     public String makeGood(String s) {
         Stack<Character> sck=new Stack<>();
         for(int i=0;i<s.length();i++)
